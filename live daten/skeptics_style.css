@@ -1,0 +1,26 @@
+.slide{
+	margin: 1em !important;
+}
+
+.slide.titlepage{
+	background-image: url("./Pics/background_title.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.column-2{
+  display:grid;
+  grid-template-columns:40% 60%;
+}
+
+.row-2{
+  display:grid;
+  grid-template-rows:50% 50%;
+}
+
+div .slide{ font-weight: 500;}
+
+h1{color: #0c2c76;}
+
+ul li li{font-style: normal;}

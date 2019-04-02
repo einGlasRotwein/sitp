@@ -1,0 +1,56 @@
+---
+title: "Datenauswertung"
+author:
+  - Juli Tkotz
+  - Martin Papenberg
+date: 02.04.2019
+output: slidy_presentation
+css: skeptics_style.css
+csl: "apa.csl"
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, echo = FALSE, include = TRUE, 
+                      fig.align = "center", out.width = "80%")
+
+library(tidyverse)
+library(knitr)
+```
+
+```{r}
+# Laden und aufbereiten
+daten <- xlsx::read.xlsx2("./dummyeingabe_03_28.xlsx", 1)
+daten[daten == ""] <- NA
+
+source("./live_aufbereitung.R")
+```
+
+
+# Die Skeptiker im Pub
+</br></br></br></br></br></br>
+<center><font size="18" color = "#0c2c76">Jetzt ein paar Beschreibungen des gemeinen "Skeptics in the Pub"-Besuchers in seinem natürlichen Biotop ...</font></center>
+
+
+# Wie erreichen wir euch?
+```{r}
+plot_items_sortiert
+```
+
+
+# Skeptiker vs. Rotwein?
+```{r}
+plot_Gruppe_skep_rw
+```
+
+
+# Online vs. offline?
+```{r}
+plot_Gruppe_on_off
+```
+
+
+# Wiederholungstäter?
+```{r}
+besuche_plot
+```
+

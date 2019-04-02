@@ -1,0 +1,34 @@
+.slide{
+	margin: 1em !important;
+	font-size: 26pt !important;
+}
+
+.slide.titlepage{
+	background-image: url("./pics/background_title.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.column-2{
+  display:grid;
+  grid-template-columns:40% 60%;
+}
+
+.row-2{
+  display:grid;
+  grid-template-rows:50% 50%;
+}
+
+div .slide{ font-weight: 500;}
+
+h1{color: #0c2c76;}
+
+ul li li{font-style: normal;}
+
+#frage h1{color: white;}
+#zufall h1{color: white;}
+#krebs h1{color: white; font-size: 3px;}
+#danke h1{color: white;}
+#einschatzung-von-wahrscheinlichkeiten h1{font-size: 28pt;}
+#krebsfalle-pro-region h1{font-size: 28pt;}

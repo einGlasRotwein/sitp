@@ -348,6 +348,8 @@ knitr::include_graphics("./pics/Survivorship-bias.png")
 knitr::include_graphics("./pics/rip.png")
 ```
 
+<center><font size = "4">@goldacre</font></center>
+
 
 # Sally Clark
 

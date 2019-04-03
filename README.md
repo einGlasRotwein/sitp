@@ -4,11 +4,11 @@
 
 Die Folien inklusive aller Dateien, Bilder und Daten zum Vortrag bei [Skeptics in the Pub](https://www.facebook.com/sitpkoeln/) am [02.04.19](https://www.facebook.com/events/1971754389786514/). Die Präsentation wurde mit [R](https://www.r-project.org/) erstellt; der Code und alle Dateien, die zum Nachbauen der Folien nötig sind, sind in diesem Repository enthalten. Wer nur die Präsentation ansehen möchte, kann entweder die [.html-Datei](https://github.com/einGlasRotwein/stip/blob/master/skeptics_praesi.html) downloaden und in einem beliebigen Browser öffnen - oder die direkte Web-Ansicht verwenden (s.o.). Angepasst sind die Folien für den Vollbildmodus auf 4:3.
 
-### Video
+## Video
 Das Video zum Vortrag:
 [folgt]
 
-### Copyright
+## Copyright
 Die Präsentation ist lizenziert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz](http://creativecommons.org/licenses/by-sa/4.0/). Wichtig ist vor allem, dass die - ebenfalls unter Creative Commons - verwendeten Inhalte Dritter in der Präsentation unter den korrekten Bedingungen wiedergegeben werden. Insbesondere die enthaltenen Comics stammen von Juli und dürfen gerne frei verwendet und verbreitet werden. Einzeln zu finden sind die Zeichnungen im Ordner im Ordner [pics](https://github.com/einGlasRotwein/stip/tree/master/pics).
 
 <p align="center"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>

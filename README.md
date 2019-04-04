@@ -26,7 +26,7 @@ Die Beispiele aus dem Vortrag stammen von ...
 - ... dem Statistik-Blog [understanding uncertainty](https://understandinguncertainty.org/), speziell [dieser Artikel](https://understandinguncertainty.org/three-fold-variation-uk-bowel-cancer-death-rates). Dringende Leseempfehlung!
 
 ## Live Daten
-[Hier](https://einglasrotwein.github.io/live_praesi) findet ihr die Folien zur Auswertung der Fragebögen, die wir zu Beginn des Vortrags rumgegeben haben. Eine Beschreibung des gemeinen Skeptikers in seinem natürlichen Biotop!
+[Hier](https://einglasrotwein.github.io/live_praesi) findet ihr die Folien zur Auswertung der Fragebögen, die wir zu Beginn des Vortrags rumgegeben haben. Eine Beschreibung des gemeinen Skeptikers in seinem natürlichen Biotop! Die Plots als einfache Grafiken gibt's aber auch in [diesem Ordner](https://github.com/einGlasRotwein/sitp/tree/master/live%20daten/plots).
 
 ---
 

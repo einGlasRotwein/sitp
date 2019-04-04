@@ -13,7 +13,7 @@ Die Präsentation ist lizenziert unter einer [Creative Commons Namensnennung - W
 
 <p align="center"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
 
-### zum Weiterlesen
+## zum Weiterlesen
 Die Beispiele aus dem Vortrag stammen von ...
 
 - ... der Website [Spurious Correlations](http://tylervigen.com/spurious-correlations), die die aburdesten Scheinzusammenhänge sammelt.
@@ -24,6 +24,9 @@ Die Beispiele aus dem Vortrag stammen von ...
 - ... diesem [Paper](https://link.springer.com/article/10.1007%2FBF00122574) von Tversky und Kahneman - die zugänglichere Lektüre ist aber sicher Kahnemans Buch [Schnelles Denken, langsames Denken](https://www.amazon.de/Schnelles-Denken-langsames-Daniel-Kahneman/dp/3886808866).
 - ... diesem [BBC-Artikel](https://www.bbc.com/news/health-14854019) über Darmkrebs im UK - ähnliche Artikel gibt es auch im deutschen Raum, siehe [hier](https://www.focus.de/gesundheit/ratgeber/krebs/symptome/ueberlebens-und-sterberaten-krebs-in-deutschland-in-diesem-bundesland-ueberleben-die-meisten-menschen_id_6269369.html).
 - ... dem Statistik-Blog [understanding uncertainty](https://understandinguncertainty.org/), speziell [dieser Artikel](https://understandinguncertainty.org/three-fold-variation-uk-bowel-cancer-death-rates). Dringende Leseempfehlung!
+
+## Live Daten
+[Hier](https://einglasrotwein.github.io/live_praesi) findet ihr die Folien zur Auswertung der Fragebögen, die wir zu Beginn des Vortrags rumgegeben haben. Eine Beschreibung des gemeinen Skeptikers in seinem natürlichen Biotop!
 
 ---
 

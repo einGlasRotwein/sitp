@@ -139,7 +139,7 @@ besuche_plot <- daten %>%
   filter(!is.na(besuche)) %>% 
   ggplot(aes(x = besuche)) +
   geom_bar(alpha = .8, colour = "black", fill = "#ff4600") +
-  labs(x = "Besuche",
+  labs(title = "Anzahl der Besuche", x = "Besuche",
        y = "Anzahl an Menschen") +
   theme(plot.title = element_text(size = 18, hjust = .5),
         axis.title.x = element_text(size = 16), axis.title.y = element_blank(),

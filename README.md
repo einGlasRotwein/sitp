@@ -1,4 +1,4 @@
-<p align="center">![](./pics/repo_header.png)</p>
+<p align="center"><img style="border-width:0" src="./pics/repo_header.png" /></p>
 
 # Richtige Daten, falsche Schlüsse
 

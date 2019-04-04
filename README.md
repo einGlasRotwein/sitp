@@ -1,4 +1,4 @@
-<p align="center">![](./pics/repo_header.png = 723 x 371)</p>
+<p align="center">![](./pics/repo_header.png)</p>
 
 # Richtige Daten, falsche Schlüsse
 

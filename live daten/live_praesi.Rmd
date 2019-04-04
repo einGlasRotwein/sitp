@@ -19,7 +19,7 @@ library(knitr)
 
 ```{r}
 # Laden und aufbereiten
-daten <- xlsx::read.xlsx2("./dummyeingabe_03_28.xlsx", 1)
+daten <- xlsx::read.xlsx2("./daten_190402.xlsx", 1)
 daten[daten == ""] <- NA
 
 source("./live_aufbereitung.R")

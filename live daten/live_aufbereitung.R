@@ -52,35 +52,17 @@ daten_lf <- daten_lf %>%
 
 
 ## 1) JEDES ITEM
-# Tabellenform - Reihenfolge Fragebogen
-items_tabelle <- daten_lf %>% 
-  group_by(Item, Gruppe_skep_rw) %>% 
-  count(Wert, name = "Anzahl") %>% 
-  filter(Wert == 1)
-
 # Tabellenform - Reihenfolge Anzahl absteigend
 items_tabelle_sortiert <- daten_lf %>% 
-  group_by(Item, Gruppe_skep_rw) %>% 
-  count(Wert, name = "Anzahl") %>% 
-  filter(Wert == 1) %>% 
+  group_by(Item, Gruppe_skep_rw, .drop = FALSE) %>% 
+  count(Wert, name = "Anzahl") %>%
   ungroup() %>% 
-  mutate(Item = factor(Item, levels = Item[order(Anzahl)])) %>%
-  arrange(Item)
+  filter(Wert == 1 | (Wert == 0 & Anzahl == 39)) %>% 
+  mutate(Anzahl = ifelse(Wert == 0, 0, Anzahl))
 
-# Plot - Reihenfolge Fragebogen
-plot_items <- items_tabelle %>%
-  ggplot(aes(x = Item, y = Anzahl, fill = Gruppe_skep_rw)) +
-  geom_col(alpha = .8, colour = "black") +
-  scale_fill_manual(values = c("#ff4600", "#0c2c76", "grey"),
-                    labels = c(" Rotwein   ", " Skeptiker   ", " Sonstiges")) +
-  labs(title = "Aufmerksam geworden auf SitP durch ...",
-       y = "Anzahl an Menschen") +
-  theme(plot.title = element_text(size = 18, hjust = .5),
-        legend.position = "top", legend.title = element_blank(), 
-        legend.text = element_text(size = 18),
-        axis.title.x = element_text(size = 16), axis.title.y = element_blank(),
-        axis.text = element_text(size = 14)) +
-  coord_flip()
+items_tabelle_sortiert$Item <- 
+  factor(items_tabelle_sortiert$Item,
+         levels = items_tabelle_sortiert$Item[order(items_tabelle_sortiert$Anzahl)])
 
 # Plot - Reihenfolge Anzahl absteigend
 plot_items_sortiert <- items_tabelle_sortiert %>%
@@ -101,10 +83,10 @@ plot_items_sortiert <- items_tabelle_sortiert %>%
 ## 2) SKEPTIKER VS. ROTWEIN
 # Tabelle für Plot
 Gruppe_skep_rw_tabelle <- daten_lf %>% 
-  group_by(Gruppe_skep_rw) %>% 
+  group_by(Gruppe_skep_rw, .drop = FALSE) %>% 
   count(Wert, name = "Anzahl") %>% 
-  filter(Wert == 1) %>% 
   ungroup() %>% 
+  filter(Wert == 1) %>% 
   mutate(Gruppe_skep_rw = factor(Gruppe_skep_rw, 
                                  levels = Gruppe_skep_rw[order(Anzahl)])) %>%
   arrange(Gruppe_skep_rw)
@@ -125,10 +107,10 @@ plot_Gruppe_skep_rw <- Gruppe_skep_rw_tabelle %>%
 ## 2) ONLINE VS. OFFLINE
 # Tabelle für Plot
 Gruppe_on_off_tabelle <- daten_lf %>% 
-  group_by(Gruppe_on_off) %>% 
-  count(Wert, name = "Anzahl") %>% 
-  filter(Wert == 1) %>% 
+  group_by(Gruppe_on_off, .drop = FALSE) %>% 
+  count(Wert, name = "Anzahl") %>%
   ungroup() %>% 
+  filter(Wert == 1) %>% 
   mutate(Gruppe_on_off = factor(Gruppe_on_off, 
                                 levels = Gruppe_on_off[order(Anzahl)])) %>%
   arrange(Gruppe_on_off)

@@ -34,3 +34,5 @@ Die Beispiele aus dem Vortrag stammen von ...
 Julis Blog [Ein Glas Rotwein](www.einglasrotwein.de) - auch auf [Facebook](https://www.facebook.com/einglasrotwein/) oder [Twitter](https://twitter.com/einGlasRotwein)
 
 Martin auf [GitHub](https://github.com/m-Py) und auf [Twitter](https://twitter.com/MPapenberg)
+
+Der [Blog der GWUP](https://blog.gwup.net/tag/skeptics-in-the-pub-koln/), wo alle Beiträge zu Skeptics in the Pub veröffentlicht werden.

@@ -1,3 +1,5 @@
+<p align="center">![](./pics/repo_header.png = 723 x 371)</p>
+
 # Richtige Daten, falsche Schlüsse
 
 **Hier geht es zur direkten [Web-Ansicht](https://einglasrotwein.github.io/skeptics_praesi) der Präsentation.**

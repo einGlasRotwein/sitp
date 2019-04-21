@@ -9,7 +9,9 @@ Die Folien inklusive aller Dateien, Bilder und Daten zum Vortrag bei [Skeptics i
 ## Video
 Das Video zum Vortrag:
 
+<p align="center">
 [![Richtige Daten, falsche Schlüsse](https://img.youtube.com/vi/mvkR3G8aHqw/0.jpg)](https:www.youtube.com/watch?v=mvkR3G8aHqw)
+</p>
 
 ## Copyright
 Die Präsentation ist lizenziert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz](http://creativecommons.org/licenses/by-sa/4.0/). Wichtig ist vor allem, dass die - ebenfalls unter Creative Commons - verwendeten Inhalte Dritter in der Präsentation unter den korrekten Bedingungen wiedergegeben werden. Insbesondere die enthaltenen Comics stammen von Juli und dürfen gerne frei verwendet und verbreitet werden. Einzeln zu finden sind die Zeichnungen im Ordner im Ordner [pics](https://github.com/einGlasRotwein/stip/tree/master/pics).

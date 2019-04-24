@@ -4,7 +4,7 @@
 
 **Hier geht es zur direkten [Web-Ansicht](https://einglasrotwein.github.io/skeptics_praesi) der Präsentation.**
 
-Eine super Zusammenfassung in Form eines Artikels von Inge Hüsgen beim Humanistischen Pressedienst gibt es [hier](https://hpd.de/artikel/richtige-daten-falsche-schluesse-16739?fbclid=IwAR3V4-PmcI86mlK2oGgDfco-LIzvkfddXK8cTLUTtljaX6xnnGN1qijiv70).
+Eine super Zusammenfassung in Form eines Artikels von Inge Hüsgen beim Humanistischen Pressedienst gibt es [hier](https://hpd.de/artikel/richtige-daten-falsche-schluesse-16739).
 
 Die Folien inklusive aller Dateien, Bilder und Daten zum Vortrag bei [Skeptics in the Pub](https://www.facebook.com/sitpkoeln/) am [02.04.19](https://www.facebook.com/events/1971754389786514/). Die Präsentation wurde mit [R](https://www.r-project.org/) erstellt; der Code und alle Dateien, die zum Nachbauen der Folien nötig sind, sind in diesem Repository enthalten. Wer nur die Präsentation ansehen möchte, kann entweder die [.html-Datei](https://github.com/einGlasRotwein/stip/blob/master/skeptics_praesi.html) downloaden und in einem beliebigen Browser öffnen - oder die direkte Web-Ansicht verwenden (s.o.). Angepasst sind die Folien für den Vollbildmodus auf 4:3.
 
